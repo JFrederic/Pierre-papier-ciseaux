@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Janken</title>
+		<link rel='stylesheet' type='text/css' href='janken.css'/>
+    <meta charset="UTF-8">
+	</head>
+	<body onload = 'decompte()'>
+
+
+  <center>
+  <div id="chrono"></div>
+</center>
+    <div class="plateau">
+
+  <center>
+  <div class="images">
+
+      <h1>A vous de choisir</h1>
+
+      <img id="pierre" src="Pierre-feuille-ciseaux/images/pierre.png" alt="" onclick ="ChoixJoueur(this.src),ChoixOrdinateur(),comparer(1,rangAlea)"/>
+      <img id ="feuille" src="Pierre-feuille-ciseaux/images/feuille.png" alt="" onclick ="ChoixJoueur(this.src),ChoixOrdinateur(),comparer(2,rangAlea)"/>
+      <img id="ciseaux" src="Pierre-feuille-ciseaux/images/ciseaux.png" alt="" onclick ="ChoixJoueur(this.src),ChoixOrdinateur(),comparer(3,rangAlea)"/>
+
+</div>
+
+
+
+
+
+
+    <div>
+      <img class="choix" src="" alt="" />
+      <img class="choixOrdi" src="" alt="" />
+
+    <div>
+
+
+      <div class="res"></div>
+      <br>
+      <div class="pointJoueur"></div>
+      <br>
+      <div class="pointOrdi"></div></div>
+
+    </div>
+
+
+
+    </center>
+
+
+    <script type="text/javascript" src="jquery-1.12.2.min.js"></script>
+
+    <script type="text/javascript" src="janken.js">
+
+
+
+
+
+
+
+
+    </script>
+
+  </body>
+
+</html>
